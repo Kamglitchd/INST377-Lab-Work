@@ -115,3 +115,11 @@
 .signup {
     margin-left: auto;
   }
+
+/* Mobile Styles*/
+@media only screen and (max-width: 400px){
+    .page{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
