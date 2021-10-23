@@ -6,12 +6,20 @@
 
 body {
   margin: 0;
+  width: 100vw;
+  min-height: 100vh;
   padding: 0;
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-  background-color: darkslategray;
+  background-color: rgb(116, 41, 97);
 }
 
+.block {
+  background-color: rgb(106, 196, 238);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 6px;
+}
 /* Page Layout */
 .columns {
   display: flex;
@@ -24,4 +32,12 @@ body {
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+.is-6{
+  margin-top: 20vh;
+}
+
+.is-vcentered{
+  margin-left: 100px;
 }
